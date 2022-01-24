@@ -15,9 +15,9 @@ Some of them will have their own Readmes.
 # Obsidian.MD:
 
 ### [**OrphanAdopter**](/OrphanAdopter/)
-Utility to help link connections between orphan files. Allows you to compile a bunch of page links directly into your clipboard with some post-processing.
+Utility to help link connections for orphan files. Allows you to compile a bunch of page links directly into your clipboard with some post-processing.
 
-It is very dynamic but can be slow - it uses a lot of Javascript and has to query every single page in your vault.
+It is fairly useful and dynamic, but can be very slow and laggy - it uses a lot of Javascript and has to query every single page in your vault.
 
 ### [**File management queries**](/FileManagementQueries/)
 Simple DataView queries but with advanced URI links. Very useful for vault housekeeping and to manage newly-created files.
