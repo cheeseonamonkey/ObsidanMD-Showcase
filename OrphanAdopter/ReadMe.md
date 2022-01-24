@@ -9,17 +9,16 @@ This tool will query **orphan files** *(files without anything linking to them)*
 
 The clipboard is automatically cleared upon opening this tool. 
 
-#### Query row schema
+#### Queried row schema:
 > ---
 > *(ORPHAN FILE NAME/LINK)* 
-> Folder:
 > *(ORPHAN FILE'S FOLDER)*
 > 
 > Append link to Clipboard:
 > <button></button>
 > ---
+> 
 > [[OrphanFiler™]]
-> Folder:
 > 00 - Meta/05 - Obaidian/05.03 - Utilities
 > 
 > Append link to Clipboard:
