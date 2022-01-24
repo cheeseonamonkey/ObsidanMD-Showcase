@@ -12,7 +12,7 @@ This tool will query **orphan files** *(files without anything linking to them)*
 ---
 
 #### Queried row schema:
-*(renders well in Obsidian but not Github ReadMe)*
+*(renders good in Obsidian but not in Github ReadMe)*
 
 > ---
 > *(ORPHAN FILE NAME/LINK)* 
