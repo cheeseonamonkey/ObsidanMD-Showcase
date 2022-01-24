@@ -2,9 +2,7 @@
 
 Cool stuff I've put together in [Obsidian.MD](https://obsidian.md).
 
-Most of them are meta utilities, or just aim improve the user experience of the mobile Android app, which is still fairly new and is often unstable.
-
-Some of them will have their own Readmes.
+Most of them are meta utilities, or just aim improve the user experience of Obsidian's Android app, which is still fairly new and is often unstable or lacking features.
 
 
 - [Native Obsidian.MD](#obsidianmd)
@@ -12,6 +10,7 @@ Some of them will have their own Readmes.
 - [Templater templates](#Templater)
 - [Misc](#misc)
 
+Some of them will have their own Readmes.
 
 # Obsidian.MD:
 
