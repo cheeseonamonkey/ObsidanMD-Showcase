@@ -30,7 +30,7 @@ Simple DataView queries but with advanced URI links. Generates links to *move* a
 Most *(all?)* of these need use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
 
 
-### [**QuickAppend:**]()
+### [**QuickAppend:**](/QuickAppend/)
 For me this is an insanely powerful feature, and really takes Obsidian's mobile app to the next level - I literally use 15+ times daily.
 
 It allows you to append to an Obsidian file using an icon in your 'quick settings' tiles in the notification tray.  
@@ -38,7 +38,7 @@ It allows you to append to an Obsidian file using an icon in your 'quick setting
 I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
 
 
-### [**Hardware shortcuts:**]()
+### [**Hardware shortcuts:**](/AndroidHardwareShortcuts/)
 Adds shortcuts to the Obsidian mobile app with hardware controls like volume keys, fingerprint scanner, and accelerometer.
 
 I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
@@ -47,14 +47,33 @@ I wrote a Reddit post that goes over this and other MacroDroid integrations: [re
 
 Anonymizes and logs ~10% of received SMS messages.
 
+
+# Templater
+
+### [Plugin Readmes](Templater/PluginReadmes/)
+
+This may be a bit buggy but it is worth including, and it required manually (like in the OS) copying the JSON data for the plugins from the \.obsidian\ folder. You can fix up the code yourself and make a PR if you'd like :)
+
+It creates a list of links to every plugin Readme. It is useful if you often need to reference plugin documentation (dataview/templater/etc.).
+
+Requires the **Hotkey Helper** plugin to programmatically generate the Readme links.
+
+
+
+### [PayStub template](Templater/PayStubTemplate/)
+
+This isn't a big deal but I am including it just to demonstrate the underrated 'tp.prompt()' function.
+
+
 # **Shell & cmd scripts**
 
 Used to automate some vault management.
 
 I used MacroDroid to run shell scripts on my phone, but results *may* vary with/without root privileges.
 
-### [**Compress vault to tarball** *(shell)*:]()
-Compresses vault to a compressed tarball.
+### [**Compress vault to tarball** *(shell)*:](/Bat-ShellScripts/)
+Compresses vault to a tarball.
 
-### [**Extract vault from tarball** *(cmd)*:]()
-Creates vault folder from a compressed tarball.
+### [**Extract vault from tarball** *(cmd)*:](/Bat-ShellScripts/)
+Creates vault from a compressed tarball.
+
