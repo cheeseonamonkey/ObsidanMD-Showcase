@@ -23,8 +23,6 @@ AS " ",
 		
 ```
 
-%%AND
-contains(file.path, "02") = false %%
 
 ### Untitled / empty:
 
@@ -57,11 +55,6 @@ contains(file.path, "02") = false %%
 ```
 
 
-%%
-
-
-
-%%
 
 
 
