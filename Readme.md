@@ -69,3 +69,4 @@ Compress vault to a tarball.
 ### [**Extract vault from tarball** *(cmd)*:](/Bat-ShellScripts/)
 Create vault from a compressed tarball.
 
+
