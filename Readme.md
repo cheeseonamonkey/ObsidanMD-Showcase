@@ -22,7 +22,7 @@ It is fairly useful and dynamic, but can be very slow and laggy - it uses a lot 
 ### [**File management queries**](/FileManagementQueries/)
 Simple DataView queries but with advanced URI links. Very useful for vault housekeeping and to manage newly-created files.
 
-Generates links to *move* and *delete* file, without leaving the current page at all. These queried links were a *pain* to set up, but can be easily templated from here for other uses too.
+Generates links to *move* and *delete* file, without leaving the current page at all. These queried links were a *pain* to set up, but can be easily templated from here for other DataView queries.
 
 
 
