@@ -67,7 +67,7 @@ Other miscellaneous or short templates.
 
 # **Shell & cmd scripts**
 
-Used to automate some vault management.
+External from Obsidian. Used to automate some vault management.
 
 I used MacroDroid to run shell scripts on my phone, but results may vary with/without root privileges.
 
