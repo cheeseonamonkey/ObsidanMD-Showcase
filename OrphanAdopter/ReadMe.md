@@ -1,11 +1,11 @@
 
 
-[[OrphanAdopter|go to OrphanAdopter]]
-
-
 ## *OrphanAdopter Readme*
 
 This tool will query **orphan files** *(files without anything linking to them)* and tools to manage them.
+
+![image](https://user-images.githubusercontent.com/54555500/150723053-7997d7d6-6779-4eaa-938a-11e794550728.png)
+
 
 **The clipboard is automatically cleared upon opening this tool.**
 
