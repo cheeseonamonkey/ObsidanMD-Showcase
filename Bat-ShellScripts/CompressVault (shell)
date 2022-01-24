@@ -1,0 +1,45 @@
+# Shell - compress vault to tarball 
+
+I used MacroDroid to trigger this on my phone, but results may vary with/without root privileges.
+
+### Shell:
+
+Entire script: ^2f2932
+
+```sh
+	
+su
+	
+cd /storage/emulated/0/SyncThings
+	
+rm vaultCompressed.tar
+	
+rm vaultCompressed.tar.gz
+	
+tar cvf vaultCompressed.tar VaultieVault
+	
+gzip -9 vaultCompressed.tar
+	
+exit 
+	
+```
+
+
+##### notes
+
+Remove old tar
+```
+rm /storage/emulated/0/SyncThings/vaultCompressed.tar
+```
+Remove old gz:
+```
+rm /storage/emulated/0/SyncThings/vaultCompressed.tar.gz
+```
+new tar:
+```
+tar cvf vaultCompressed.tar /storage/emulated/0/SyncThings/VaultieVault
+```
+new gz (compress):
+```
+gzip -9 /storage/emulated/0/SyncThings/vault Compressed.tar
+```
