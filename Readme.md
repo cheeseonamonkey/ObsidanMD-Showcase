@@ -4,19 +4,17 @@ Cool stuff I've put together in [Obsidian.MD](https://obsidian.md).
 
 Most of the things will have their own Readmes.
 
-### Contents:
+## Contents:
 
-- **OrphanAdopter**
+### **OrphanAdopter**
+- Helps manage orphaned files.
+- (needs dataview plugin)
 
-Helps manage orphaned files.
+### **OrphanAdopter**
+- Helps manage orphaned files.
 
-- *aaaaa*
-aaaaaaaaaa
+### **OrphanAdopter**
+- Helps manage orphaned files.
 
-
-- *aaaaa*
-aaaaaaaaaa
-
-
-- *aaaaa*
-aaaaaaaaaa
+### **OrphanAdopter**
+- Helps manage orphaned files.
