@@ -10,7 +10,7 @@ Some of them will have their own Readmes.
 
 ## Obsidian.MD:
 
-### **OrphanAdopter**
+### ++**OrphanAdopter**++
 Utility to help link connections between orphan files.
 - very dynamic but a bit slow - it uses a lot of Javascript and has to query every single page in your vault
 - requires **Dataview** plugin
