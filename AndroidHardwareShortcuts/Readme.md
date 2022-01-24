@@ -1,11 +1,13 @@
 # Android Hardware Shortcuts
 
+Improving the android app with [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US) integration.
+
 ### Gesture up/down on the fingerprint reader to fold/unfold headings:
 This is super useful to me, I couldn't live without it any more. I often find it very frustrating to navigate in the app.
 
 Obviously you can't see what I'm doing, *(I hope),* but here I'm just moving my finger on the fingerprint scanner (up to fold, down to unfold):
 
-![](https://i.imgur.com/Wk9HyTQ.gif)
+[gif link](https://i.imgur.com/Wk9HyTQ.gif)
 
 An idea for left/right gestures is to slide open the left and right panels, or to navigate forward and back.
 
