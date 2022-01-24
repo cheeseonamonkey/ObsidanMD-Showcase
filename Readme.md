@@ -24,10 +24,11 @@ Simple DataView queries but with advanced URI links. Generates links to *move* a
 
 - very useful! those queried links are a *pain* to set up
 - requires both the **DataView** and **Advanced Obsidian URI** plugins 
+- I actually wrote for Reddit once a tutorial on how to do this: [reddit tutorial](https://www.reddit.com/r/ObsidianMD/comments/rlljp9/dataview_queues_for_file_management_with_buttons/)
 
 
-### **OrphanAdopter**
-- Helps manage orphaned files.
+### **AAAAAAA**
+- Helps 
 
-### **OrphanAdopter**
-- Helps manage orphaned files.
+### **AAAAAAA**
+- Helps 
