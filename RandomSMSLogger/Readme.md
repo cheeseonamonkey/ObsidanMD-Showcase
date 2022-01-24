@@ -8,8 +8,5 @@ It first anonymizes the data somewhat, then logs it to a file:
 
 ![](https://i.imgur.com/WQAgJyO.png)
 
-Idk, its pretty new to me but I think it can give me an interesting timeline of my communications with people. Especially when linked to my Daily pages, or linked with mentions.
+I don't really know what I can ever use it for but it was an interesting idea. I might turn it off also - I'm still not sure how to feel about logging messages in a raw txt file, anonymized or no.
 
-But I might stop it later - I'm still not sure how to feel about logging messages in a .txt file, lol.
-
----
