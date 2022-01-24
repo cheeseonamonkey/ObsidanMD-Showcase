@@ -80,10 +80,8 @@ The clipboard display shows your current clipboard without any of the console st
 
 
 
-%%
-credits:
+###### credits:
 github.com/cheeseonamonkey
-%%
 
 
 
