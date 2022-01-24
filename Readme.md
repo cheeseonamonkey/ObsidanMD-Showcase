@@ -45,7 +45,7 @@ I wrote a Reddit post that goes over this and other MacroDroid integrations: [re
 
 ### **[RandomSMSLogger](/RandomSMSLogger/)**
 
-Anonymizes and logs ~10% of received SMS messages.
+Anonymizes and logs 10% of all received SMS messages.
 
 
 # Templater
