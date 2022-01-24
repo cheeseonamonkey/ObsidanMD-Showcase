@@ -69,7 +69,7 @@ This isn't a big deal but I am including it just to demonstrate the underrated '
 
 Used to automate some vault management.
 
-I used MacroDroid to run shell scripts on my phone, but results *may* vary with/without root privileges.
+I used MacroDroid to run shell scripts on my phone, but results may vary with/without root privileges.
 
 ### [**Compress vault to tarball** *(shell)*:](/Bat-ShellScripts/)
 Compresses vault to a tarball.
