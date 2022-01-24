@@ -45,7 +45,7 @@ Anonymizes and logs 10% of all received SMS messages.
 
 # Templater
 
-### [Plugin Readmes](/Templater/PluginReadmes)
+### [Plugin Readmes](/Templater/)
 
 This may be a bit buggy and requires manually (like in the OS) copying the JSON data for the plugins from the \.obsidian\ folder. But I think it is worth including here. You can fix up the code yourself and make a PR if you'd like :)
 
@@ -53,7 +53,7 @@ It creates a list of links to every plugin Readme. It is useful if you often nee
 
 Requires the **Hotkey Helper** plugin to programmatically generate the Readme links.
 
-### [PayStub template](/Templater/PayStubTemplate)
+### [PayStub template](/Templater/)
 
 This isn't a big deal but I am including it just to demonstrate the underrated 'tp.prompt()' function. It could be improved in many ways.
 
