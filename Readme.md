@@ -47,7 +47,7 @@ Anonymizes and logs 10% of all received SMS messages.
 
 ### [Plugin Readmes](Templater/PluginReadmes/)
 
-This may be a bit buggy but it is worth including, and it required manually (like in the OS) copying the JSON data for the plugins from the \.obsidian\ folder. You can fix up the code yourself and make a PR if you'd like :)
+This may be a bit buggy and requires manually (like in the OS) copying the JSON data for the plugins from the \.obsidian\ folder. But I think it is worth including here. You can fix up the code yourself and make a PR if you'd like :)
 
 It creates a list of links to every plugin Readme. It is useful if you often need to reference plugin documentation (dataview/templater/etc.).
 
