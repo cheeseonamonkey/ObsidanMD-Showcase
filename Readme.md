@@ -42,7 +42,7 @@ Adds shortcuts to the Obsidian mobile app with hardware controls like volume key
 ### **[RandomSMSLogger](/RandomSMSLogger/)**
 Anonymizes and logs 10% of all received SMS messages.
 
-### **[Link to any Android app](/AndroidAppUriLinking)**
+### **[Launch any Android app](/AndroidAppUriLinking)**
 
 
 # Templater
