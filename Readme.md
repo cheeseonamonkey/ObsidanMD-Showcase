@@ -10,6 +10,7 @@ Some of them will have their own Readmes.
 
 ### **OrphanAdopter**
 Utility to help link connections between orphan files.
+
 ![image](https://user-images.githubusercontent.com/54555500/150709385-dc61338e-2908-4c08-a776-afa3d4bd6c2d.png)
 
 - very dynamic but a bit slow - it uses a lot of Javascript and has to query every single page in your vault
@@ -17,7 +18,8 @@ Utility to help link connections between orphan files.
 
 
 ### **File Management Queries**
-Simple DataView queries with URI links. Generates links to *move* and *delete* without leaving the page at all. Used mainly for vault housekeeping and to manage newly-created files.
+Simple DataView queries but with advanced URI links. Generates links to *move* and *delete* without leaving the page at all. Used mainly for vault housekeeping and to manage newly-created files.
+
 ![image](https://user-images.githubusercontent.com/54555500/150709642-f2f0069b-87db-4765-a041-df446008fe06.png)
 
 - very useful! those queried links are a *pain* to set up
