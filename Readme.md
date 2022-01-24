@@ -7,44 +7,40 @@ Most of them are meta utilities, or just aim improve the user experience of the 
 Some of them will have their own Readmes.
 
 
+[Native Obsidian.MD](#Obsidian.MD)
+[Obsidian Android integrations](#Obsidian Android integrations)
+[Templater templates](#Templater)
+[Shell / cmd scripts](#Shell & cmd scripts)
+
 
 # Obsidian.MD:
 
-### [**OrphanAdopter:**](/OrphanAdopter/)
-Utility to help link connections between orphan files.
-- very dynamic but a bit slow - it uses a lot of Javascript and has to query every single page in your vault
-- requires **Dataview** plugin
+### [**OrphanAdopter**](/OrphanAdopter/)
+Utility to help link connections between orphan files. Helps you compile a bunch of page links directly into your clipboard.
 
-### [**File management queries:**](/FileManagementQueries/)
-Simple DataView queries but with advanced URI links. Generates links to *move* and *delete* without leaving the page at all. Used mainly for vault housekeeping and to manage newly-created files.
+It is very dynamic but can be slow - it uses a lot of Javascript and has to query every single page in your vault.
 
-- very useful! those queried links are a *pain* to set up, but can be templated here for many other uses 
-- requires both the **DataView** and **Advanced Obsidian URI** plugins 
-- I actually wrote for Reddit once a tutorial on how to do this: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rlljp9/dataview_queues_for_file_management_with_buttons/)
+### [**File management queries**](/FileManagementQueries/)
+Simple DataView queries but with advanced URI links. Very useful for vault housekeeping and to manage newly-created files.
+
+Generates links to *move* and *delete* file, without leaving the current page at all. These queried links were a *pain* to set up, but can be easily templated from here for other uses too.
 
 
 
-
-# **Obsidian Android App integrations:** *(MacroDroid)*
+# **Obsidian Android integrations** *(MacroDroid)*
 
 Most *(all?)* of these use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
 
 
 ### [**QuickAppend:**](/QuickAppend/)
-For me this is an insanely powerful feature, and really takes Obsidian's mobile app to the next level - I literally use 15+ times daily.
+For me this is an incredibly powerful feature, and really takes Obsidian's mobile app to the next level. I literally use it 15+ times daily!
 
-It allows you to append to an Obsidian file using an icon in your 'quick settings' tiles in the notification tray.  
-
-I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
-
+It allows you to append to an Obsidian file by pushing a custom button in your phone's 'quick settings' tiles in the notification tray. 
 
 ### [**Hardware shortcuts:**](/AndroidHardwareShortcuts/)
 Adds shortcuts to the Obsidian mobile app with hardware controls like volume keys, fingerprint scanner, and accelerometer.
 
-I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
-
 ### **[RandomSMSLogger](/RandomSMSLogger/)**
-
 Anonymizes and logs 10% of all received SMS messages.
 
 
@@ -59,10 +55,14 @@ It creates a list of links to every plugin Readme. It is useful if you often nee
 Requires the **Hotkey Helper** plugin to programmatically generate the Readme links.
 
 
-
 ### [PayStub template](Templater/PayStubTemplate/)
 
 This isn't a big deal but I am including it just to demonstrate the underrated 'tp.prompt()' function. It could be improved in many ways.
+
+
+### [Misc templates](/Templater/Misc)
+
+Other miscellaneous or short templates.
 
 
 # **Shell & cmd scripts**
