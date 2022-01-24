@@ -1,0 +1,46 @@
+
+```cmd
+
+echo off
+cls
+echo Set up vault from tarball:
+echo ----
+echo.
+pause
+echo.
+
+
+IF EXIST "vaultCompressedTarGzip.txt" (
+  ECHO Found file: TarGzip.txt\t\tRenaming extension to targz...
+  ren vaultCompressedTarGzip.txt vaultCompressed.tar.gz
+echo ----
+
+) ELSE (
+  ECHO (no targzip.txt found! checking for: .tar.gz ...)
+)
+
+echo.
+echo Extracting from file: (.tar.gz)...
+  ..\..\7z\7zPortable\app\7-zip\7z.exe x vaultCompressed.tar.gz -aoa
+echo ----
+
+echo.
+echo "Extracting from file: (.tar)...
+  ..\..\7z\7zPortable\app\7-zip\7z.exe x vaultCompressed.tar -aoa
+echo ----
+echo.
+
+
+pause
+echo.
+echo.
+echo Finished!
+echo ----
+echo.
+echo Cleaning up old files...
+del vaultCompressedTarGzip
+del vaultCompressedTarGzip.txt
+del vaultCompressed.tar.gz
+del vaultCompressed.tar
+echo 
+```
