@@ -31,7 +31,7 @@ Many of these use [MacroDroid](https://play.google.com/store/apps/details?id=com
 
 
 
-#### QuickAppend:
+#### **QuickAppend:**
 For me this is an insanely powerful feature, and really takes Obsidian's mobile app to the next level - I literally use 15+ times daily.
 
 It allows you to append to an Obsidian file using an icon in your 'quick settings' tiles in the notification tray.  
@@ -39,7 +39,7 @@ It allows you to append to an Obsidian file using an icon in your 'quick setting
 I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
 
 
-#### Hardware shortcuts:
+#### **Hardware shortcuts:**
 Adds shortcuts to the Obsidian mobile app with hardware controls like volume keys, fingerprint scanner, and accelerometer.
 
 I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
