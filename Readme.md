@@ -27,8 +27,7 @@ Simple DataView queries but with advanced URI links. Generates links to *move* a
 
 # **Obsidian Android integrations:** *(MacroDroid)*
 
->Most or all of these use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store.
->*The free version limited to 5 macros, and premium version is something around $6.*
+Most (all?) of these need use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
 
 
 ### **QuickAppend:**
@@ -47,4 +46,12 @@ I wrote a Reddit post that goes over this and other MacroDroid integrations: [re
 
 # **Shell/cmd scripts**
 
-### ### **Hardware shortcuts:**
+Used to automate some vault management.
+
+I used MacroDroid to run shell scripts on my phone, but results *may* vary with/without root privileges.
+
+### **Compress vault to tarball** *(shell)*:
+Compresses vault to a compressed tarball.
+
+### **Extract vault from tarball** *(cmd)*:
+Creates vault folder from a compressed tarball.
