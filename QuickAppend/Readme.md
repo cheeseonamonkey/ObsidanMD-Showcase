@@ -1,3 +1,9 @@
+For me this is an incredibly powerful feature, and really takes Obsidian's mobile app to the next level. I literally use it 15+ times daily!
+
+It allows you to append to an Obsidian file by pushing a custom button in your phone's 'quick settings' tiles in the notification tray.
+
+
+>I do want to write a detailed usage instructions for this. I also intend to integrate this feature into a standalone Android App.
 
 
 
