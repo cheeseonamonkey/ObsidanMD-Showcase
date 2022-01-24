@@ -1,5 +1,5 @@
 
-### Currently in 02 - Inbox:
+### 02.02 - Inbox:
 ```dataview
 	TABLE WITHOUT ID 
 	
@@ -24,7 +24,7 @@ AS " ",
 ```
 
 
-### Untitled / empty:
+### Untitled & Empty:
 
 ```dataview
 	TABLE WITHOUT ID
@@ -60,7 +60,9 @@ AS " ",
 
 
 
-### Created today:
+### Created Today:
+
+%% this is sometimes buggy when backing up, restorying, and syncing between devices %%
 
 ```dataview
 TABLE WITHOUT ID 
