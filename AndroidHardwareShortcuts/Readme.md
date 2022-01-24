@@ -4,7 +4,8 @@
 This is super useful to me, I couldn't live without it any more. I often find it very frustrating to navigate in the app.
 
 Obviously you can't see what I'm doing, *(I hope),* but here I'm just moving my finger on the fingerprint scanner (up to fold, down to unfold):
-[gif link](https://i.imgur.com/Wk9HyTQ.gif)
+
+![](https://i.imgur.com/Wk9HyTQ.gif)
 
 An idea for left/right gestures is to slide open the left and right panels, or to navigate forward and back.
 
