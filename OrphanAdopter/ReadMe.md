@@ -10,6 +10,8 @@ This tool will query **orphan files** *(files without anything linking to them)*
 The clipboard is automatically cleared upon opening this tool. 
 
 #### Queried row schema:
+*(renders well in Obsidian but not Github ReadMe)*
+
 > ---
 > *(ORPHAN FILE NAME/LINK)* 
 > *(ORPHAN FILE'S FOLDER)*
