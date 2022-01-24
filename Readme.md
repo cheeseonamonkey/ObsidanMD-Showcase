@@ -10,7 +10,7 @@ Some of them will have their own Readmes.
 - [Native Obsidian.MD](#obsidianmd)
 - [Obsidian Android integrations](#obsidian-android-integrations-macrodroid)
 - [Templater templates](#Templater)
-- [Shell / cmd scripts](#shell--cmd-scripts)
+- [Shell / cmd scripts](#misc)
 
 
 # Obsidian.MD:
