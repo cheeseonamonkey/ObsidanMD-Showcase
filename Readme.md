@@ -25,7 +25,7 @@ Simple DataView queries but with advanced URI links. Generates links to *move* a
 
 
 
-# [**Obsidian Android integrations:**]() *(MacroDroid)*
+# **Obsidian android integrations:** *(MacroDroid)*
 
 Most *(all?)* of these need use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
 
@@ -44,7 +44,7 @@ Adds shortcuts to the Obsidian mobile app with hardware controls like volume key
 I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
 
 
-# [**Shell/cmd scripts**]()
+# **Shell & cmd scripts**
 
 Used to automate some vault management.
 
