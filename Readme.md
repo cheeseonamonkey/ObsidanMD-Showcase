@@ -7,7 +7,7 @@ Most of them are meta utilities, or just aim improve the user experience of the 
 Some of them will have their own Readmes.
 
 
-- [Native Obsidian.MD](#Obsidian.MD)
+- [Native Obsidian.MD](#obsidianmd)
 - [Obsidian Android integrations](#integrations)
 - [Templater templates](#Templater)
 - [Shell / cmd scripts](#scripts)
