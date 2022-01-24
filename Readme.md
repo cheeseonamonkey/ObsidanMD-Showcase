@@ -60,20 +60,15 @@ Requires the **Hotkey Helper** plugin to programmatically generate the Readme li
 This isn't a big deal but I am including it just to demonstrate the underrated 'tp.prompt()' function. It could be improved in many ways.
 
 
-### [Misc templates](/Templater/Misc)
 
-Other miscellaneous or short templates.
+# Misc
 
+## **Shell & cmd scripts**
+External from Obsidian. Used to automate some vault management. I use MacroDroid to run shell scripts on my phone, but results may vary with/without root privileges.
 
-# **Shell & cmd scripts**
+## [**Compress vault to tarball** *(shell)*:](/Bat-ShellScripts/)
+Compress vault to a tarball.
 
-External from Obsidian. Used to automate some vault management.
-
-I used MacroDroid to run shell scripts on my phone, but results may vary with/without root privileges.
-
-### [**Compress vault to tarball** *(shell)*:](/Bat-ShellScripts/)
-Compresses vault to a tarball.
-
-### [**Extract vault from tarball** *(cmd)*:](/Bat-ShellScripts/)
-Creates vault from a compressed tarball.
+## [**Extract vault from tarball** *(cmd)*:](/Bat-ShellScripts/)
+Create vault from a compressed tarball.
 
