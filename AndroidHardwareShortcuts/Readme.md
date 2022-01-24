@@ -24,3 +24,7 @@ This one I don't use nearly as often as the others above, but the volume keys se
 
 Here I'm just just pushing the volume buttons on my phone:
 [gif link](https://i.imgur.com/q7QefV4.gif)
+
+---
+
+I wrote a Reddit post that goes over this and other MacroDroid integrations: [reddit post link](https://www.reddit.com/r/ObsidianMD/comments/rkf22r/improving_the_obsidianmd_android_app_dramatically/)
