@@ -15,7 +15,7 @@ Utility to help link connections between orphan files.
 - very dynamic but a bit slow - it uses a lot of Javascript and has to query every single page in your vault
 - requires **Dataview** plugin
 
-### [**File management queries:**]()
+### [**File management queries:**](/FileManagementQueries/)
 Simple DataView queries but with advanced URI links. Generates links to *move* and *delete* without leaving the page at all. Used mainly for vault housekeeping and to manage newly-created files.
 
 - very useful! those queried links are a *pain* to set up, but can be templated here for many other uses 
