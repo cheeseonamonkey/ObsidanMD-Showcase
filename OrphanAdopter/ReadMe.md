@@ -5,9 +5,9 @@
 
 ## *OrphanAdopter Readme*
 
-This tool will query **orphan files** *(files without anything linking to them)* and tools to manage them. ^1b3e3a
+This tool will query **orphan files** *(files without anything linking to them)* and tools to manage them.
 
-The clipboard is automatically cleared upon opening this tool. 
+**The clipboard is automatically cleared upon opening this tool.**
 
 #### Queried row schema:
 *(renders well in Obsidian but not Github ReadMe)*
