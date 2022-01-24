@@ -27,7 +27,7 @@ Simple DataView queries but with advanced URI links. Generates links to *move* a
 
 # **Obsidian Android integrations:** *(MacroDroid)*
 
-Most (all?) of these need use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
+Most *(all?)* of these need use [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en_US&gl=US), a powerful automation app available on the Play Store. The free version limited to 5 macros, and premium version is something around $6.
 
 
 ### **QuickAppend:**
