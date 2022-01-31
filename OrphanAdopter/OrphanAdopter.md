@@ -1,42 +1,72 @@
 
 
 
-
-
-
-
-
-
-
 ## OrphanAdopter
-[[OrphanAdopter#OrphanAdopter Readme|Readme]]
+[[OrphanAdopter-Readme|Readme]]
 
 
 ```dataviewjs
 
-//================================
+
+
+
+//=================
 //functions:
+//
+
+//save function
+function save(event) {
+
+let sender = event.target;
+
+sender.innerHTML = "SAVED!"
+
+sender.style = "box-shadow: 4px 3px black; width: 40%; height: 45px; float:right; background-color: purple;"
+
+storeStr = localStorage.getItem("store1");
+
+storeStr += "," + sender.name
+
+localStorage.setItem("store1", storeStr);
+
+con("saved to store: " + sender.name)
+con(cbr)
+con("\n")
+
+}//end save
 
 //delay function
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }
 
+//clear store function
+function clrStore() {
+store1 = ""
+localStorage.setItem("store1", "");
+
+con("cleared store.")
+con(cbr)
+cbr("\n")
+
+}
 
 
 //
-//copy function
-//(row item, cbtn click)
+//copy function - adds link
+//
 function copy(event){
 
 try {
 
-//wacky function workaround:
-// - passes data via the element's name
 
+//passes data via the element's name i guess?
 let sender = event.target.name;
 
-let lnk = "[[" + event.target.name + "]]" ;
+let lnk = "[[" + event.target.name + "]]"
+
+let precedeStr = "";
+precedeStr = txtPrecede.value;
 
 let preStr = "";
 preStr = txtPrepend.value;
@@ -53,20 +83,19 @@ navigator.clipboard.writeText(clipb);
 clipbDisplay.innerHTML = clipb;
 
 
-con("\n\n" + cbr + "success!\nnew clipboard contents:\n" + clipb + "\n\n");
+con("\n\n" + cbr +  "success!\nnew clipboard contents:\n" + clipb + "\n\n");
 
 
 
-event.target.style = "width: 200px; height: 35px; background-color: #326369; box-shadow: 2px 2px black;"
-delay(85).then(() => event.target.style = "width: 200px; height: 35px; background-color: #3a8dab" )
+event.target.style = cbtnStyleStr + "background-color:  #3a8dab; box-shadow: 4px 3px black;"
+
 event.target.innerHTML = "COPIED!"
 
 //
 }catch(exc) {
-	con(exc.message + " ## ERROR ERROR ERROR ##\N\tError:  - " +exc.toString());
+	con(exc.message + " ## ERROR ##\n\tError:  - " +exc.toString());
 	
 }
-
 } //end copy function
 
 
@@ -79,26 +108,21 @@ txtCon.value = str + "\n" + txtCon.value;
 }//end con
 
 
-/*
-dataviewjs doesn't like a function to print rows, can't do this
-	function(pRow) {
-	}
-*/
 
 
 
-
-
-
-//======================================================
+//===================================
 //init 
 //=================
 
+const cbtnStyleStr = "width: 40%; font-size: 75%; height: 45px; float: left; background-color: DarkSlateGrey;"; 
 
+if(localStorage.getItem("store1") === null) {
+localStorage.setItem("store1", "");
+}
 
 let conParentDiv = this.container.createEl('div');
 conParentDiv.style = 'float: left; ';
-
 
 let conLbl = conParentDiv.createEl('h5');
 conLbl.style = 'margin: 0px; text-align: center;';
@@ -107,15 +131,16 @@ conLbl.innerHTML = "Console:";
 
 let tmpEl;
 
+let storeStr;
 
 
 //console line break
 let cbr = "\n_______________\n"
-//console textarea
+
+//
+//console 
 
 let clipb = "";
-
-
 
 let txtCon = conParentDiv.createEl('textarea');
 
@@ -123,6 +148,8 @@ txtCon.style = "font-size: 70%; font-family: monospace; float: left; width: 300p
 
 dv.paragraph("");
 
+con("## console init ##")
+con('\n')
 
 let clipbParentDiv = this.container.createEl('div');
 clipbParentDiv.style = 'float: left;'
@@ -134,19 +161,20 @@ tmpEl.innerHTML = "current clipboard:";
 
 let clipbDisplay = clipbParentDiv.createEl('textarea');
 
-clipbDisplay.style = 'float: left; font-size: 45%; line-height: 85%; font-family: monospace; background-color: gray; width: 300px; height: 400px; margin: 10px; padding: 5px;';
+clipbDisplay.style = 'float: left; font-size: 55%; line-height: 85%; font-family: monospace; background-color: gray; width: 300px; height: 400px; margin: 10px; padding: 5px;';
 clipbDisplay.innerHTML = "(clipboard is empty)";
 
-tmpEl = this.container.createEl('div');
-tmpEl.style = "clear: both;";
-
-
-let postProccessLbl = dv.el('h3', 'Post-processing:');
 
 
 
 
 
+
+
+let dclear = await dv.el('br');
+dclear.style = "width: 100%; clear: both;";
+
+let postProccessLbl = dv.el('h3', 'Post-processing');
 
 
 //
@@ -158,7 +186,7 @@ tmpEl = d3.createEl('span');
 tmpEl.innerHTML = "Precede(before <i>all</i> links):<br><br>";
 
 let txtPrecede = d3.createEl('input');
-txtPrecede.style = "width: 85px;"
+txtPrecede.style = "clear: both; width: 85px;"
 
 tmpEl = d3.createEl('span');
 tmpEl.style = "font-size: 95%;"
@@ -206,32 +234,44 @@ d2.style =
 tmpEl = d2.createEl('span');
 tmpEl.innerHTML = "Append (<i>after</i> link):<br><br>";
 
+
+
+
 tmpEl = d2.createEl('span')
 tmpEl.innerHTML = "<a>Link</a>→";
 let txtAppend = d2.createEl('input');
 txtAppend.style = "width: 50px;"
 
+let clrBtn = this.container.createEl('button');
+clrBtn.style = "clear: both; height: 40px; width: 70%;";
+clrBtn.addEventListener("click", clrStore);  
+clrBtn.innerHTML= "clear store"
+navigator.clipboard.writeText("");
+con("cleared clipboard contents.");
 
-
-let dclear = await dv.el('div');
+dclear = await dv.el('div');
 dclear.style = "clear: both;";
 
-dv.paragraph("\n\n---");
+dv.el('br');
+dv.el('p', '---');
+
+let storeEnabled = false;
+
+if (typeof(Storage) !== "undefined") {
+	storeEnabled = true;
+} else {
+	storeEnabled = false;
+}
+
+con("store enabled: " + storeEnabled);
+
+let store1 = localStorage.getItem("store1")
 
 
+con('store: ' +  store1);
 
-txtCon.value = "";
-
-con(cbr + "console init...")
-
-navigator.clipboard.writeText("");
-con(cbr + "cleared clipboard contents.")
-
-
-let qConStr = cbr + "querying for orphans...";
-
-
-
+con(cbr);
+con("querying for orphans...") 
 
 
 
@@ -243,14 +283,11 @@ let qConStr = cbr + "querying for orphans...";
 var pages = await dv.pages()
 .where(p => p.file.inlinks.length == 0)
 
-//.map(p => [p.file.link,
-//p.file.folder ]
-//); 
-//leaving .map() example here for future reference. simpler queries should use it. 
 
-qConStr += "\n" + "found orphans: " + pages.length;
 
-con(qConStr);
+con("found orphans: " + pages.length) 
+
+con(cbr)
 
 
 
@@ -264,16 +301,20 @@ tmpEl.innerHTML = '<b>' + pages.length + '</b><i> orphans found. </i>';
 
 tmpEl.style = "color: gray; margin: 0px; margin-left: 150px; font-size: 75%;";
 
-dv.span('\n---');
+dv.el('p', '---');
 
-//=========================
+
+storeStr = localStorage.getItem("store1");
+let storeArr = storeStr.split(',')
+
+con(storeArr.length)
+
+//======================
 //foreach matching page
-//=========
+//======
 for(let i=0; i<pages.length; i++) {
-
 /*
-	wacky dataviewjs doesn't like this in a function. just leave it here.
-
+	wacky dvjs doesn't all like this in a function. leave it here.
 */
 
 	let p = pages[i];
@@ -281,58 +322,69 @@ for(let i=0; i<pages.length; i++) {
 	//linked name label
 	let filN = dv.span("**" + p.file.link + "**");
 	
-	//folder part
-	let filF = dv.span("<br><small>*" + p.file.folder+ "*</small>");
+	//folder label underneath 
+	let filF = dv.span("<br><small>*" + p.file.folder+ "*</small><br>");
 
 
 
-	dv.paragraph("");
-	
+
 //cbtn
-dv.span("**Append link to Clipboard:**");
-dv.el("br")
 let cbtn = this.container.createEl('button');
-
-
-
 cbtn.name = p.file.path;
-cbtn.onClick = copy;
-cbtn.style = "width: 170px; font-size: 75%; height: 35px; background-color: DarkSlateGrey;";
-cbtn.innerHTML = "Add to clipboard"
+
+	cbtn.style = cbtnStyleStr;
+cbtn.innerHTML = "Add link to clipboard"
 cbtn.addEventListener("click", copy);
 
-dv.paragraph("---")
+
+
+
+
+
+
+
+
+//sbtn
+let sbtn = this.container.createEl('button');
+sbtn.name = p.file.name;
+
+sbtn.innerHTML = "Save"
+
+
+
+sbtn.style = cbtnStyleStr + "; float:right; ";
+
+for(let ii=0; ii<storeArr.length; ii++) { 
+
+con('')
+
+if(storeArr[ii] === p.file.name) {
+
+con("SAVE MATCH")
+//stored match
+tmpEl = this.container.createEl('span');
+tmpEl.innerHTML = 'SAVED!';
+tmpEl.style = "background-color: purple; padding: 8px; border: 1px solid orange;";
+
+
+
+
+ 
+
+} 
+}//end search iterator
+
+
+sbtn.addEventListener("click", save);
+
+tmpEl = this.container.createEl('span')
+tmpEl.innerHTML = '<br><hr>'
+tmpEl.style = "clear: both;"
 
 } //end for 
-
-
-
-/* test button
- 
-	let btn = this.container.createEl('button');
-	
-	btn.addEventListener("click", copy);
-	
-	btn.name = "btnAsd";
-	
-	btn.value = "aaa";
-*/
-
-
-//debug output
-dv.span("example file:\n" + pages[7]);
-
-
 
 
 ```
 
 ---
-
-
-
-
-
-
-
-
+ 
